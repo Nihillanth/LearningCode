@@ -1,3 +1,4 @@
+// Приверка заполнения формы
 function checkForm() {
     let n1 = document.getElementById("name1").value;
     let t1 = /^[А-Я][а-я]*(-[А-Я][А-Я]*)*$/;
@@ -75,13 +76,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-
+// Сброс пользователя
 reset.addEventListener('click', function () {
     localStorage.clear();
     location.reload();
 
 })
 
+// Ссылки на др. сраницы
 special.addEventListener('click', () => {
     window.open('counter.html');
 })

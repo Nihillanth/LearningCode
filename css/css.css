@@ -399,3 +399,50 @@ footer {
       transform: translate(0, -100%);
     }
 }
+
+#all-users {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#all-users span {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#result {
+    margin-bottom: 100px;
+}
+
+#result table {
+    display: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+table td:first-child {
+    width: 30%;
+}
+
+.show-btn {
+    cursor: pointer;
+}
+
+.show-btn:hover {
+    color: purple;
+}
+
+#posts {
+margin-bottom: 50px;
+}
