@@ -75,6 +75,8 @@
     z-index: 3;
 }
 
+/* общие стили */
+
 main {
     display: flex;
     justify-content: center;
